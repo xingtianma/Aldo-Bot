@@ -41,16 +41,6 @@ client.on('message', message =>{
     if(message.author.id == '689591603765182532')
         message.channel.send('*farts*')
 
-    /*
-    if(message.author.id == '239449306086506496'){
-        
-        if(message.content )
-        var string = message.content
-        message.channel.send(string.toUpperCase())
-
-        message.channel.send('yo why u screaming alex?')
-    } 
-    */  
     if(message.author.id == '372532589791281166'){  
         var str = message.content
 
