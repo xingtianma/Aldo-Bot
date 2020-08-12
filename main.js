@@ -24,7 +24,8 @@ client.on('message', message =>{
         str = str.replace('p', 'P');
         str = str.replace('q', 'Q');
         str = str.replace('r', 'R');
-        str = str.replace('t', 'T');
+        str = str.replace('B', 'b');
+        str = str.replace('T', 't');
     }
     
     if(message.content.toLowerCase() === 'kevin')
@@ -40,6 +41,9 @@ client.on('message', message =>{
         
     if(message.author.id == '689591603765182532')
         message.channel.send('*farts*')
+
+    if(message.author.id == '384896691196919808')
+        message.channel.send("stfu")
 
     if(message.author.id == '372532589791281166'){  
         var str = message.content
