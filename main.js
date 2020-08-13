@@ -38,9 +38,13 @@ client.on('message', message =>{
     if(message.content.toLowerCase() === 'who')
         message.channel.send('asked')
         
-    if(message.author.id == '689591603765182532')
-        message.channel.send('*farts*')
-
+    if(message.author.id == '689591603765182532'){
+        var number = Math.floor(Math.random() * 6) + 1 
+        if(number == 1)
+            message.channel.send('*farts*');
+        if(number == 2)
+            message.channel.send('*burps*');
+    }
     /*
     if(message.author.id == '239449306086506496'){
         
