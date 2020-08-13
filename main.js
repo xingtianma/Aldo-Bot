@@ -39,7 +39,7 @@ client.on('message', message =>{
         message.channel.send('asked')
         
     if(message.author.id == '689591603765182532'){
-        var number = Math.floor(Math.random() * 6) + 1 
+        let number = Math.floor(Math.random() * 2) 
         if(number == 1)
             message.channel.send('*farts*');
         if(number == 2)
