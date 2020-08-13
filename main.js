@@ -38,7 +38,7 @@ client.on('message', message =>{
     if(message.content.toLowerCase() === 'who')
         message.channel.send('asked')
         
-    if(message.author.id == '282698201289588736'){
+    if(message.author.id == '689591603765182532'){
         let number = Math.floor(Math.random() * 3) 
         if(number == 1)
             message.channel.send('*farts*');
