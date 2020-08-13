@@ -42,7 +42,7 @@ client.on('message', message =>{
         let number = Math.floor(Math.random() * 2) 
         if(number == 1)
             message.channel.send('*farts*');
-        if(number == 2)
+        if(number == 0)
             message.channel.send('*burps*');
     }
     /*
