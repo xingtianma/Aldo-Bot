@@ -44,6 +44,7 @@ client.on('message', message =>{
 
     if(message.author.id == '384896691196919808')
         message.channel.send("stfu")
+
     if(message.author.id == '689591603765182532'){
         let number = Math.floor(Math.random() * 3) 
         if(number == 1)
@@ -135,7 +136,14 @@ client.on('message', message =>{
     } else if (command == 'beauty2'){
         message.channel.send('https://cdn.discordapp.com/attachments/737513285800165418/744085512670674945/cringe.png');
     }
-        
+    
+    if (command == 'convo'){
+        message.channel.send('Did you fart <@689591603765182532>?')
+        if (message.content.toLowerCase() === 'no')
+            message.channel.send('stop lying bitch')
+        else if (message.content.toLowerCase() === 'yes')
+            message.channel.send('thats what i thought bitch')
+    }
 
 
 
