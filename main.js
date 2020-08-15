@@ -139,9 +139,9 @@ client.on('message', message =>{
     
     if (command == 'convo'){
         message.channel.send('Did you fart <@689591603765182532>?')
-        if (message.content.toLowerCase() === 'no')
+        if (str == 'no')
             message.channel.send('stop lying bitch')
-        else if (message.content.toLowerCase() === 'yes')
+        else if (str == 'yes')
             message.channel.send('thats what i thought bitch')
     }
 
