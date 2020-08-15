@@ -125,7 +125,7 @@ client.on('message', message =>{
     } else if (command == 'largest joke'){
         message.channel.send('DEBBYS ATTEMPT AT BEING FUNNY LMAOOFNIODAKJDJAKDBA');
     } else if (command == 'sanskevin'){
-        messsage.channel.send('https://cdn.discordapp.com/attachments/356221283983294465/744080638029725747/here_you_go_fuckwad.png');
+        message.channel.send('https://cdn.discordapp.com/attachments/356221283983294465/744080638029725747/here_you_go_fuckwad.png');
     } else if (command == 'sansalex'){
         message.channel.send('https://cdn.discordapp.com/attachments/356221283983294465/744080903462060062/alex_sans_but_transparent.png');
     } else if (command == 'avatar'){
