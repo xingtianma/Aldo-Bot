@@ -137,13 +137,7 @@ client.on('message', message =>{
         message.channel.send('https://cdn.discordapp.com/attachments/737513285800165418/744085512670674945/cringe.png');
     }
     
-    if (command == 'convo'){
-        message.channel.send('Did you fart <@689591603765182532>?')
-        if (str == 'no')
-            message.channel.send('stop lying bitch')
-        else if (str == 'yes')
-            message.channel.send('thats what i thought bitch')
-    }
+
 
 
 
