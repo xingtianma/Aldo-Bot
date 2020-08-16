@@ -43,7 +43,12 @@ client.on('message', message =>{
         message.channel.send('*farts*')
 
     if(message.author.id == '384896691196919808')
+<<<<<<< HEAD
         message.channel.send("stfu jeryl")
+=======
+        message.channel.send("stfu")
+
+>>>>>>> aca85addf243572f1ab7ea9eb69aa27f521caac7
     if(message.author.id == '689591603765182532'){
         let number = Math.floor(Math.random() * 3) 
         if(number == 1)
@@ -125,15 +130,24 @@ client.on('message', message =>{
     } else if (command == 'largest joke'){
         message.channel.send('DEBBYS ATTEMPT AT BEING FUNNY LMAOOFNIODAKJDJAKDBA');
     } else if (command == 'sanskevin'){
-        messsage.channel.send('https://cdn.discordapp.com/attachments/356221283983294465/744080638029725747/here_you_go_fuckwad.png');
+        message.channel.send('https://cdn.discordapp.com/attachments/356221283983294465/744080638029725747/here_you_go_fuckwad.png');
     } else if (command == 'sansalex'){
         message.channel.send('https://cdn.discordapp.com/attachments/356221283983294465/744080903462060062/alex_sans_but_transparent.png');
     } else if (command == 'avatar'){
         message.channel.send('Long ago, the four nations lived together in harmony. Then, everything changed when the Smelly Fart Nation attacked. Only the Quirker, master of all four farts, could stop them, but when the world needed her most, she vanished. A hundred years passed and my brother and I discovered the new Quirker, a Quirky Burper named Mirfanda.And although her fartbending skills are great, she has a lot to learn before shes ready to fart on anyone. But I believe Mirfanda can spread the farts.');
     } else if (command == 'beauty'){
         message.channel.send('https://cdn.discordapp.com/attachments/720686861852475422/743366389951103017/sarah.png');
+    } else if (command == 'beauty2'){
+        message.channel.send('https://cdn.discordapp.com/attachments/737513285800165418/744085512670674945/cringe.png');
     }
-        
+    
+    if (command == 'convo'){
+        message.channel.send('Did you fart <@689591603765182532>?')
+        if (str == 'no')
+            message.channel.send('stop lying bitch')
+        else if (str == 'yes')
+            message.channel.send('thats what i thought bitch')
+    }
 
 
 
