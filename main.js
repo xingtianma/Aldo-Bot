@@ -71,56 +71,6 @@ client.on('message', message =>{
         if(number == 2)
             message.channel.send('*burps*');
     }
-
-    if(message.author.id == '372532589791281166'){
-
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-        retardify()
-    
-        message.channel.send(str)
-    }
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
     const args = message.content.slice(prefix.length).split("/ +/");
@@ -154,6 +104,8 @@ client.on('message', message =>{
         message.channel.send('https://cdn.discordapp.com/attachments/720686861852475422/743366389951103017/sarah.png');
     } else if (command == 'beauty2'){
         message.channel.send('https://cdn.discordapp.com/attachments/737513285800165418/744085512670674945/cringe.png');
+    } else if (command == 'pog'){
+        message.channel.send('champ')
     }
     
 
