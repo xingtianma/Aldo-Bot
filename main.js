@@ -39,8 +39,27 @@ client.on('message', message =>{
     if(message.content.toLowerCase() === 'who')
         message.channel.send('asked')
         
-    if(message.author.id == '689591603765182532')
-        message.channel.send('*farts*')
+    if(message.author.id == '372532589791281166')
+    {   
+        retardify();
+        retardify();
+        retardify();
+        retardify();
+        retardify();
+        retardify();
+        retardify();
+        retardify();
+        retardify();
+        retardify();
+        retardify();
+        retardify();
+        retardify();
+        retardify();
+        retardify();
+        retardify();
+
+        message.channel.send(str)
+    }
 
     if(message.author.id == '384896691196919808')
         message.channel.send('stfu jeryl')
