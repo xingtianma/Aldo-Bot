@@ -136,6 +136,8 @@ client.on('message', message =>{
         message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756736597692776448/image0.jpg');
     } else if (command == 'waterunicorn'){
         message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756739288124620860/2Q.png');
+    } else if (command == 'chikadance'){
+        message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756588217855246356/2020-09-18_14-49-51.mp4');
     }
 
 
