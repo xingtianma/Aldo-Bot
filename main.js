@@ -122,8 +122,11 @@ client.on('message', message =>{
         message.channel.send('https://pastebin.com/J1zbw7vS');
     } else if (command == 'jake'){
         message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756734995585957968/33263920-8739979-image-a-26_1600274731664.png');
+    } else if (command == 'cheese'){
+        message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756736088269389924/Swiss-Cheese.png');
+    } else if (command == 'cockandmen'){
+        message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756736597692776448/image0.jpg');
     }
-    
 
 
 
