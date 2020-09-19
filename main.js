@@ -42,6 +42,8 @@ client.on('message', message =>{
         message.channel.send('champ')
     if(message.content.toLowerCase() === 'are you horny?')
         message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756733951715836014/image0.png')
+    if(message.content.toLowerCase() === 'yo whos sus?')
+        message.channel.send('idk man <@434877530915471372> kinda sus ngl bro')
         
     if(message.author.id == '372532589791281166')
     {   
