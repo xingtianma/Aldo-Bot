@@ -114,7 +114,9 @@ client.on('message', message =>{
         message.channel.send('https://cdn.discordapp.com/attachments/737513285800165418/744085512670674945/cringe.png');
     } else if (command == 'amongus'){
         message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756731709000777808/image0.png');
-    } else if (command == 'jordan'){
+    } else if (command == 'suli'){
+        message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756733093385207818/image0.jpg');
+    } else if (command == jordan){
         message.channel.send('https://pastebin.com/J1zbw7vS');
     }
     
