@@ -45,6 +45,12 @@ client.on('message', message =>{
     if(message.author.id == '384896691196919808')
         message.channel.send('stfu jeryl')
 
+    if(message.author.id == '448996175761113108')
+        message.channel.send('baba booey')
+
+    if(message.author.id == '627907083257380896')
+        message.channel.send('baba booey')
+
     if(message.author.id == '689591603765182532'){
         let number = Math.floor(Math.random() * 3) 
         if(number == 1)
