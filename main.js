@@ -134,6 +134,8 @@ client.on('message', message =>{
             message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756738059185291334/9k.png');
     } else if (command == 'cockandmen'){
         message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756736597692776448/image0.jpg');
+    } else if (command == 'waterunicorn'){
+        message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756739288124620860/2Q.png');
     }
 
 
