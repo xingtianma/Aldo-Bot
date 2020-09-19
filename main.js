@@ -112,7 +112,9 @@ client.on('message', message =>{
         message.channel.send('https://cdn.discordapp.com/attachments/720686861852475422/743366389951103017/sarah.png');
     } else if (command == 'beauty2'){
         message.channel.send('https://cdn.discordapp.com/attachments/737513285800165418/744085512670674945/cringe.png');
-    } 
+    } else if (command == 'amongus'){
+        message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756731709000777808/image0.png');
+    }
     
 
 
