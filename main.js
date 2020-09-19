@@ -123,13 +123,15 @@ client.on('message', message =>{
     } else if (command == 'jake'){
         message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756734995585957968/33263920-8739979-image-a-26_1600274731664.png');
     } else if (command == 'cheese'){
-        let cheese = Math.floor(Math.random() * 4) 
+        let cheese = Math.floor(Math.random() * 5) 
         if(cheese == 1)
             message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756736088269389924/Swiss-Cheese.png');
         if(cheese == 2)
             message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756737794239627274/90.png');
         if(cheese == 3)
             message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756737968773005322/cheddar-cheese-crop-3fdf5ad3229e4748bbc0b8acdc442dcd.png');
+        if(cheese == 4)
+            message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756738059185291334/9k.png');
     } else if (command == 'cockandmen'){
         message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756736597692776448/image0.jpg');
     }
