@@ -100,12 +100,6 @@ client.on('message', message =>{
         message.channel.send('is a fucking simp LMAOOO');
     } else if (command == 'alex'){
         message.channel.send('let jurak beat him in cello in 6th grade xd LOOOOL');
-    } else if (command == 'joke'){
-        message.channel.send('Woman');
-    } else if (command == 'bigger joke'){
-        message.channel.send('SARAH LMAOOO');
-    } else if (command == 'largest joke'){
-        message.channel.send('DEBBYS ATTEMPT AT BEING FUNNY LMAOOFNIODAKJDJAKDBA');
     } else if (command == 'sanskevin'){
         message.channel.send('https://cdn.discordapp.com/attachments/356221283983294465/744080638029725747/here_you_go_fuckwad.png');
     } else if (command == 'sansalex'){
