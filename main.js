@@ -27,15 +27,22 @@ client.on('message', message =>{
         str = str.replace('B', 'b');
         str = str.replace('T', 't');
     }
-        if (message.content == '/muteAll') 
+    if (message.content.toLowerCase() === '/muteAll') 
         {
-            let channel = message.member.voiceChannel;
-            for (let member of channel.members) 
-            {
-                member[1].setMute(true)
-            }
+        let channel = message.member.voiceChannel;
+        for (let member of channel.members) 
+        {
+            member[1].setMute(true)
         }
-
+    }
+    if (message.content.toLowerCase() === '/unmuteAll') 
+    {
+        let channel = message.member.voiceChannel;
+        for (let member of channel.members) 
+        {
+            member[1].setMute(false)
+        }
+    }
 
     if(message.content.toLowerCase() === 'kevin')
         message.channel.send('stop pinging me please thanks <@282698201289588736>')    
