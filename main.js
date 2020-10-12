@@ -31,17 +31,17 @@ client.on('message', message =>{
     {
         let channel = message.member.voiceChannel;
         for (let member of channel.members) 
-        
-        member[1].setMute(true)
-        
+        {
+            member[1].setMute(true)
+        }
     }
     if (message.content.toLowerCase() === '/unmuteAll') 
     {   
         let channel = message.member.voiceChannel;
         for (let member of channel.members) 
-        
-        member[1].setMute(false)
-        
+        {
+            member[1].setMute(false)
+        }
     }
 
     if(message.content.toLowerCase() === 'kevin')
