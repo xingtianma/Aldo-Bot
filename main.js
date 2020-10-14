@@ -32,7 +32,7 @@ client.on('message', message =>{
         let channel = message.member.voiceChannel;
         for (let member of channel.members) 
         {
-            member[1].setMute(true)
+            connection.members.setMute(true);
         }
     }
     if (message.content.toLowerCase() === '/unmuteAll') 
@@ -85,6 +85,9 @@ client.on('message', message =>{
 
     if(message.author.id == '384896691196919808')
         message.channel.send('stfu jeryl')
+
+    if(message.author.id == '604010864366059550')
+        message.channel.send('stfu gayson')
 
     if(message.author.id == '448996175761113108')
         message.channel.send('baba booey')
