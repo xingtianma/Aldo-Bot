@@ -100,7 +100,7 @@ client.on('message', message =>{
         message.channel.send('baba booey')
 
     if(message.author.id == '689591603765182532'){
-        let number = Math.floor(Math.random() * 3) 
+        let number = Math.floor(Math.random() * 6) 
         if(number == 1)
             message.channel.send('*farts*');
         if(number == 2)
