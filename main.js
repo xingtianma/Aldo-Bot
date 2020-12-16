@@ -62,14 +62,13 @@ client.on('message', message =>{
         message.channel.send('idk man <@434877530915471372> kinda sus ngl bro')
     if(message.author.id == '282698201289588736')
     {
-        if(message.content.toLowerCase() === '<@639204215113252914>')
+        if(message.content.toLowerCase() === 'spam')
         {
             x = 0;
             y = 40;
             while(x < y)
             {
-                message.channel.send('DAB')
-                x = x +1
+                message.channel.send('<@639204215113252914>')
             }
         }
     }
