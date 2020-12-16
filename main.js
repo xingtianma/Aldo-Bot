@@ -60,6 +60,20 @@ client.on('message', message =>{
         message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756733951715836014/image0.png')
     if(message.content.toLowerCase() === 'yo whos sus?')
         message.channel.send('idk man <@434877530915471372> kinda sus ngl bro')
+    if(message.author.id == '282698201289588736')
+    {
+        if(message.content.toLowerCase() === 'spam')
+        {
+            x = 0;
+            y = 40;
+            while(x < y)
+            {
+                message.channel.send('DAB')
+                x = x + 1;
+            }
+        }
+    }
+
         
     if(message.author.id == '372532589791281166')
     {   
