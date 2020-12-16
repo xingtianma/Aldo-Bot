@@ -69,6 +69,7 @@ client.on('message', message =>{
             while(x < y)
             {
                 message.channel.send('<@639204215113252914>')
+                x = x + 1;
             }
         }
     }
