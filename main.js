@@ -62,7 +62,7 @@ client.on('message', message =>{
         message.channel.send('idk man <@434877530915471372> kinda sus ngl bro')
     if(message.author.id == '282698201289588736')
     {
-        if(message.content.toLowerCase() === '!spam')
+        if(message.content.toLowerCase() === '<@639204215113252914>')
         {
             x = 0;
             y = 40;
