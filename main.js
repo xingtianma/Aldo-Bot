@@ -12,23 +12,22 @@ client.on('message', message =>{
     function retardify()
     {
         str = message.content
-        str = str.replace('a', 'A');
-        str = str.replace('c', 'C');
-        str = str.replace('e', 'E');
-        str = str.replace('d', 'D');
-        str = str.replace('f', 'F');
-        str = str.replace('h', 'H');
-        str = str.replace('g', 'G');
-        str = str.replace('i', 'I');
-        str = str.replace('l', 'L');
-        str = str.replace('o', 'O');
-        str = str.replace('p', 'P');
-        str = str.replace('q', 'Q');
-        str = str.replace('r', 'R');
-        str = str.replace('B', 'b');
-        str = str.replace('T', 't');
 
-        message.channel.send(str);
+        x = 0
+
+        for(x = 0; x < str.length; x++)
+        {
+            let number = Math.floor(Math.random() * 2) 
+            if(number == 1)
+            {
+                str.charAt.toUpperCase(x)
+            }
+            if(number == 2)
+            {
+                str.charAt.toUpperCase(x)
+            }
+        }
+        message.channel.send(str)
     }
     if (message.content.toLowerCase() === '/muteAll') 
     {
