@@ -17,14 +17,14 @@ client.on('message', message =>{
 
         for(x = 0; x < str.length; x++)
         {
-            let number = Math.floor(Math.random() * 2) 
+            let number = Math.floor(Math.random() * 3) 
             if(number == 1)
             {
                 str.toUpperCase(x)
             }
             if(number == 2)
             {
-                str.toUpperCase(x)
+                str.toLowerCase(x)
             }
         }
         message.channel.send(str)
