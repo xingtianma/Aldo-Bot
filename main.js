@@ -20,11 +20,11 @@ client.on('message', message =>{
             let number = Math.floor(Math.random() * 3) 
             if(number < 1)
             {
-                message.channel.send(number)
+                message.channel.send('less')
             }
             if(number > 1)
             {
-                message.channel.send(number)
+                message.channel.send('greater')
             }
         }
         message.channel.send(str)
