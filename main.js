@@ -83,24 +83,24 @@ client.on('message', message =>{
         
     if(message.author.id == '282698201289588736')
     {   
-        retardify()
+        retardify();
     }
 
     if(message.author.id == '384896691196919808')
-        message.channel.send('stfu jeryl')
+        message.channel.send('stfu jeryl');
 
     if(message.author.id == '604010864366059550')
     {
         let number = Math.floor(Math.random() * 10) 
         if(number == 1)
-        message.channel.send('stfu gayson')
+        message.channel.send('stfu gayson');
     }
 
     if(message.author.id == '448996175761113108')
-        message.channel.send('baba booey')
+        message.channel.send('baba booey');
 
     if(message.author.id == '627907083257380896')
-        message.channel.send('baba booey')
+        message.channel.send('baba booey');
 
     if(message.author.id == '689591603765182532'){
         let number = Math.floor(Math.random() * 6) 
@@ -164,6 +164,8 @@ client.on('message', message =>{
         message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756741159514275880/Im_wit_da_gang_wit_da_mob_what_was_u_thinking.mp4');
     } else if (command == 'noracism'){
         message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756741302317482074/u_didnt_tell_me_u_was_wavy.mp4');
+    } else if (command == 'josh'){
+        message.channel.send('wants to die');
     }
 
 
