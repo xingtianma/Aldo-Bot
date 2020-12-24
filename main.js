@@ -81,24 +81,7 @@ client.on('message', message =>{
         
     if(message.author.id == '372532589791281166')
     {   
-        retardify();
-        retardify();
-        retardify();
-        retardify();
-        retardify();
-        retardify();
-        retardify();
-        retardify();
-        retardify();
-        retardify();
-        retardify();
-        retardify();
-        retardify();
-        retardify();
-        retardify();
-        retardify();
-
-        message.channel.send(str)
+        message.channel.send('poop')
     }
 
     if(message.author.id == '384896691196919808')
