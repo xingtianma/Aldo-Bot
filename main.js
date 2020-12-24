@@ -11,7 +11,7 @@ client.on('message', message =>{
 
     function retardify()
     {
-        str = message;
+        str = message.content
         str = str.replace('a', 'A');
         str = str.replace('c', 'C');
         str = str.replace('e', 'E');
