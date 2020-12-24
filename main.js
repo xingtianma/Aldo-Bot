@@ -11,24 +11,21 @@ client.on('message', message =>{
 
     function retardify()
     {
-        
+        str = message.content
 
         x = 0
 
         for(x = 0; x < str.length; x++)
         {
-            str = message.content
-            
             let number = Math.floor(Math.random() * 3) 
             if(number < 1)
             {
-                str = str.toUpperCase(str.substring(x, x + 1))
+                str = str.replace(str.charAt(x), str.toUpperCase(str.charAt(x)))
             }
             if(number > 2)
             {
-                str = str.toLowerCase(str.substring(x, x + 1))
+                str = str.replace(str.charAt(x), str.toLowerCase(str.charAt(x)))
             }
-            str = str + str
         }
         message.channel.send(str)
     }
