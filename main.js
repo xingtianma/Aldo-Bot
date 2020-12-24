@@ -20,7 +20,8 @@ client.on('message', message =>{
             let number = Math.floor(Math.random() * 3) 
             if(number < 1)
             {
-                str.charAt(str.toUpperCase(x))
+                y = str.charAt(x)
+                str.toUpperCase(y)
             }
             if(number > 2)
             {
