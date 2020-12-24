@@ -20,11 +20,11 @@ client.on('message', message =>{
             let number = Math.floor(Math.random() * 2) 
             if(number == 1)
             {
-                str.charAt(x);toUpperCase()
+                str.toUpperCase(x)
             }
             if(number == 2)
             {
-                str.charAt(x);toUpperCase()
+                str.toUpperCase(x)
             }
         }
         message.channel.send(str)
