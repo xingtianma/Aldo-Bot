@@ -14,24 +14,24 @@ client.on('message', message =>{
         str = message.content
 
         x = 0
-
+        finalStr = ''
         for(x = 0; x < str.length; x++)
         {
             testStr = str.charAt(x)
-            message.channel.send(testStr.toUpperCase())
-            /*
+            
             let number = Math.floor(Math.random() * 3) 
             if(number < 1)
             {
-            
+                secondStr = (testStr.toUpperCase())
             }
-            if(number > 2)
+            else if(number > 2)
             {
-
+                secondStr = (testStr.toLowerCase())
             }
-            */
+            
+            finalStr = finalStr + secondStr
         }
-        //message.channel.send(str)
+        message.channel.send(finalStr)
     }
     if (message.content.toLowerCase() === '/muteAll') 
     {
