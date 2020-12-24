@@ -11,6 +11,7 @@ client.on('message', message =>{
 
     function retardify()
     {
+        str = message;
         str = str.replace('a', 'A');
         str = str.replace('c', 'C');
         str = str.replace('e', 'E');
@@ -26,6 +27,8 @@ client.on('message', message =>{
         str = str.replace('r', 'R');
         str = str.replace('B', 'b');
         str = str.replace('T', 't');
+
+        message.channel.send(str);
     }
     if (message.content.toLowerCase() === '/muteAll') 
     {
@@ -93,13 +96,6 @@ client.on('message', message =>{
         if(number == 1)
         message.channel.send('stfu gayson')
     }
-
-    if(message.author.id == '448996175761113108')
-        message.channel.send('baba booey')
-
-    if(message.author.id == '627907083257380896')
-        message.channel.send('baba booey')
-
     if(message.author.id == '689591603765182532'){
         let number = Math.floor(Math.random() * 6) 
         if(number == 1)
