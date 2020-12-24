@@ -65,7 +65,7 @@ client.on('message', message =>{
         if(message.author.id == '282698201289588736')
         {message.content.toLowerCase() === 'spam'
             x = 0;
-            y = 40;
+            y = 5;
             while(x < y)
             {
                 message.channel.send('<@639204215113252914>')
@@ -130,15 +130,15 @@ client.on('message', message =>{
     const command = args.shift().toLowerCase();
 
     if(command === 'debby'){
-        message.channel.send('is el mucho stupido!!');
+        message.channel.send('is now a very big simp');
     } else if (command == 'sarah'){
-        message.channel.send('farts a lot hehe, so quirky!!');
+        message.channel.send('still farts too much');
     } else if (command == 'nein'){
         message.channel.send('DU BIST HASSLICH, SCHWUL BLYAT');
     } else if (command == 'john'){
         message.channel.send('is slight gay but only on saturdays');
     } else if (command == 'kevin'){
-        message.channel.send('is a fucking simp LMAOOO');
+        message.channel.send('is no longer a fucking simp.');
     } else if (command == 'alex'){
         message.channel.send('let jurak beat him in cello in 6th grade xd LOOOOL');
     } else if (command == 'sanskevin'){
