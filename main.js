@@ -17,17 +17,20 @@ client.on('message', message =>{
 
         for(x = 0; x < str.length; x++)
         {
+            message.channel.send(str.charAt(x))
+            /*
             let number = Math.floor(Math.random() * 3) 
             if(number < 1)
             {
-                str = str.replace('a' , 'A')
+                
             }
             if(number > 2)
             {
-                str = str.replace('a', 'A')
+
             }
+            */
         }
-        message.channel.send(str)
+        //message.channel.send(str)
     }
     if (message.content.toLowerCase() === '/muteAll') 
     {
