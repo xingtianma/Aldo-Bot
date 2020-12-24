@@ -24,7 +24,7 @@ client.on('message', message =>{
             {
                 secondStr = (testStr.toUpperCase())
             }
-            else if(number > 2)
+            else if(number > 1)
             {
                 secondStr = (testStr.toLowerCase())
             }
