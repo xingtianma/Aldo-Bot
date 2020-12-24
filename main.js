@@ -81,7 +81,7 @@ client.on('message', message =>{
         
     if(message.author.id == '372532589791281166')
     {   
-        message.channel.send('poop')
+        
     }
 
     if(message.author.id == '384896691196919808')
