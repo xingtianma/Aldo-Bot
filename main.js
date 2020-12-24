@@ -26,6 +26,8 @@ client.on('message', message =>{
         str = str.replace('r', 'R');
         str = str.replace('B', 'b');
         str = str.replace('T', 't');
+
+        message.channel.send(str)
     }
     if (message.content.toLowerCase() === '/muteAll') 
     {
@@ -79,9 +81,9 @@ client.on('message', message =>{
     }
 
         
-    if(message.author.id == '372532589791281166')
+    if(message.author.id == '282698201289588736')
     {   
-        message.channel.send('poop')
+        retardify()
     }
 
     if(message.author.id == '384896691196919808')
