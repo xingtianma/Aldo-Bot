@@ -17,7 +17,8 @@ client.on('message', message =>{
 
         for(x = 0; x < str.length; x++)
         {
-            message.channel.send(str.toUpperCase(str.charAt(x)))
+            y = str.charAt(x)
+            message.channel.send(x)
             /*
             let number = Math.floor(Math.random() * 3) 
             if(number < 1)
