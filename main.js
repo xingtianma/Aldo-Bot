@@ -22,7 +22,7 @@ client.on('message', message =>{
             {
                 message.channel.send(number)
             }
-            if(number > 2)
+            if(number > 1)
             {
                 message.channel.send(number)
             }
