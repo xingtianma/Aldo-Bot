@@ -11,12 +11,14 @@ client.on('message', message =>{
 
     function retardify()
     {
-        str = message.content
+        
 
         x = 0
 
         for(x = 0; x < str.length; x++)
         {
+            str = message.content
+            
             let number = Math.floor(Math.random() * 3) 
             if(number < 1)
             {
