@@ -87,7 +87,7 @@ client.on('message', message =>{
         
     if(message.author.id == '282698201289588736')
     {   
-        retardify();
+        //retardify();
     }
 
     if(message.author.id == '384896691196919808')
