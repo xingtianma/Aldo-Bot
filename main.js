@@ -18,7 +18,8 @@ client.on('message', message =>{
         for(x = 0; x < str.length; x++)
         {
             testStr = str.charAt(x)
-            
+            message.channel.send(testStr)
+            /*
             let number = Math.floor(Math.random() * 3) 
             if(number < 1)
             {
@@ -28,10 +29,10 @@ client.on('message', message =>{
             {
                 secondStr = (testStr.toLowerCase())
             }
-            
+            */
             finalStr = finalStr.concat(secondStr)
         }
-        message.channel.send(finalStr)
+        //message.channel.send(finalStr)
     }
     if (message.content.toLowerCase() === '/muteAll') 
     {
@@ -87,7 +88,7 @@ client.on('message', message =>{
         
     if(message.author.id == '282698201289588736')
     {   
-        //retardify();
+        retardify();
     }
 
     if(message.author.id == '384896691196919808')
