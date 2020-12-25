@@ -30,7 +30,6 @@ client.on('message', message =>{
                 secondStr = (testStr.toLowerCase())
             }
             */
-            finalStr = finalStr.concat(secondStr)
         }
         //message.channel.send(finalStr)
     }
