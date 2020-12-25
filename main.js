@@ -20,7 +20,7 @@ client.on('message', message =>{
             testStr2 = testStr.toUpperCase()
             testStr3 = testStr.toLowerCase()
             
-            let number = Math.floor(Math.random() * 3) 
+            let number = Math.floor(Math.random() * 2) 
             if(number < 1)
             {
                 str = str.replace(testStr, testStr2 )
