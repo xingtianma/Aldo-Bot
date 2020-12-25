@@ -18,12 +18,13 @@ client.on('message', message =>{
         for(x = 0; x < str.length; x++)
         {
             testStr = str.charAt(x)
-            message.channel.send(testStr)
+            testStr2 = testStr.toUpperCase()
+            message.channel.send(testStr2)
             /*
             let number = Math.floor(Math.random() * 3) 
             if(number < 1)
             {
-                secondStr = (testStr.toUpperCase())
+                str.replace(str.charAt(x), )
             }
             else if(number > 1)
             {
