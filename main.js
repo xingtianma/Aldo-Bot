@@ -76,6 +76,7 @@ client.on('message', message =>{
             {
                 message.channel.send('<@639204215113252914>')
                 x = x + 1;
+                message.delete(1);
             }
         }
         else
