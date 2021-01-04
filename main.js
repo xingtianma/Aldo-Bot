@@ -160,7 +160,9 @@ client.on('message', message =>{
         message.channel.send('https://www.youtube.com/watch?v=PsBPPkt0Rbg');
     } else if (command == 'spooky'){
         message.channel.send('https://cdn.discordapp.com/attachments/657041225328623626/795682838350528522/Joshs_shadow.png');
-    } 
+    } else if (command == 'murder'){
+        message.channel.send('They got your ass not once \nhttps://youtu.be/JnAExSOjEbA\n but TWICE\nhttps://streamable.com/fwj2u0\n AND IN 4K')
+    }
 
 
 
