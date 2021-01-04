@@ -82,10 +82,6 @@ client.on('message', message =>{
             retardify();
         }
     }
-    if(message.content.toLowerCase() === '!murder')
-    {
-        message.delete();
-    }
     if(message.author.id == '384896691196919808')
         message.channel.send('stfu jeryl')
 
