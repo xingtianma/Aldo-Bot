@@ -2,9 +2,13 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 const prefix = '!'
+const mute = require('./mute')
+
 
 client.once('ready', () => {
     console.log('Aldo is here.');
+
+    mute(client)
 });
 
 client.on('message', message =>{
@@ -33,6 +37,7 @@ client.on('message', message =>{
         }
         message.channel.send(str)
     }
+
     if(message.content.toLowerCase() === 'kevin')
         message.channel.send('stop pinging me please thanks <@282698201289588736>')    
     if(message.content.toLowerCase() === 'debby please shut up')
@@ -72,6 +77,17 @@ client.on('message', message =>{
         if(message.author.id == '282698201289588736')
         {
             message.channel.bulkDelete(100);
+        }
+        else
+        {
+            message.channel.send('nice try dumbass lmao')
+        }
+    }
+    if(message.content.toLowerCase() === 'disconnect')
+    {
+        if(message.author.id === '282698201289588736')
+        {
+            member.setVoiceChannel("kevin-doesn't-like-you")
         }
     }
     if(message.author.id == '372532589791281166')
