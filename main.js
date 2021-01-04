@@ -73,7 +73,8 @@ client.on('message', message =>{
     if(message.content.toLowerCase() === 'spam')
     {
         if(message.author.id == '282698201289588736')
-        {message.content.toLowerCase() === 'spam'
+        {
+            message.content.toLowerCase() === 'spam'
             x = 0;
             y = 5;
             while(x < y)
@@ -88,13 +89,17 @@ client.on('message', message =>{
         }
     }
     if(message.author.id == '372532589791281166')
-    {   let number = Math.floor(Math.random() * 5) 
+    {   
+        let number = Math.floor(Math.random() * 5) 
         if(number < 1)
         {
             retardify();
         }
     }
-
+    if(message.content.toLowerCase() === '!murder')
+    {
+        message.delete();
+    }
     if(message.author.id == '384896691196919808')
         message.channel.send('stfu jeryl')
 
