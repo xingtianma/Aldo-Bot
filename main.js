@@ -169,6 +169,8 @@ client.on('message', message =>{
         message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756741302317482074/u_didnt_tell_me_u_was_wavy.mp4');
     } else if (command == 'joash'){
         message.channel.send('https://www.youtube.com/watch?v=PsBPPkt0Rbg');
+    } else if (command == 'spooky'){
+        message.channel.send('https://cdn.discordapp.com/attachments/657041225328623626/795682838350528522/Joshs_shadow.png');
     }
 
 
