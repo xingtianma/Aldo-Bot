@@ -76,7 +76,7 @@ client.on('message', message =>{
     {
         if(message.author.id == '282698201289588736')
         {
-            message.channel.bulkDelete(100);
+            message.channel.bulkDelete(10);
         }
         else
         {
