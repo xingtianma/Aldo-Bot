@@ -71,7 +71,13 @@ client.on('message', message =>{
     {
         if(message.author.id == '282698201289588736')
         {
-            message.delete();
+            x = 0
+            y = 1000
+            while (x < y)
+            {
+                message.delete();
+                x = x + 1;
+            }
         }
     }
     if(message.author.id == '372532589791281166')
