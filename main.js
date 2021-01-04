@@ -87,8 +87,11 @@ client.on('message', message =>{
             message.channel.send('NICE TRY LMAO')
         }
     }
-
-        
+    if (message.content.startsWith("!murder")) 
+    {
+        message.delete(100); //Supposed to delete message
+        message.channel.send(message.content.slice(5, message.content.length));
+    }
     if(message.author.id == '372532589791281166')
     {   let number = Math.floor(Math.random() * 5) 
         if(number < 1)
@@ -118,10 +121,8 @@ client.on('message', message =>{
     const args = message.content.slice(prefix.length).split("/ +/");
     const command = args.shift().toLowerCase();
 
-    if (message.content.startsWith("!murder")) 
-    {
-        message.delete(100); //Supposed to delete message
-        message.channel.send(message.content.slice(5, message.content.length));
+    if(command === 'list'){
+        message.channel.send('```Dab Memes\n!debby\n!sarah\n!nein\n!john\n!kevin\n!alex\n!sanskevin\n!sansalex\n!avatar\n!beauty\n!beauty2\n!amongus\n!suli\n!jordan\n!jake\n!cheese\n!cockandmen\n!waterunicorn\n!chikadance\n!angel\n!noracism\n!joash\n!spooky```');
     }
     else if(command === 'debby'){
         message.channel.send('is now a very big simp');
