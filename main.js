@@ -179,12 +179,12 @@ client.on('message', message =>{
     } else if (command == 'murder'){
         message.channel.send('They got your ass not once \nhttps://youtu.be/JnAExSOjEbA\n but TWICE\nhttps://streamable.com/fwj2u0\n AND IN 4K')
     } else if (command == 'cap'){
-        let random = Math.floor(Math.random() * 2)
-        if (random > 1)
+        let random = Math.floor(Math.random() * 1)
+        if (random == 1)
         {
             message.channel.send('NOT CAP')
         }
-        if (random < 1)
+        if (random == 0)
         {
             message.channel.send('CAP')
         }
