@@ -5,6 +5,7 @@ const prefix = '!'
 
 client.once('ready', () => {
     console.log('Aldo is here.');
+    message.channel.send('IM BACK BITCHES')
 });
 
 client.on('message', message =>{
