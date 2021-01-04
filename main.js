@@ -114,6 +114,10 @@ client.on('message', message =>{
     const args = message.content.slice(prefix.length).split("/ +/");
     const command = args.shift().toLowerCase();
 
+    if(command === 'list'){
+        message.channel.send('```Dab Memes\n!debby\n!sarah\n!nein\n!john\n!kevin\n!alex\n!sanskevin\n!sansalex\n!avatar\n!beauty\n!beauty2\n!amongus\n!suli\n!jordan\n!jake\n!cheese\n!cockandmen\n!waterunicorn\n!chikadance\n!angel\n!noracism\n!joash```')
+    }
+    
     if(command === 'debby'){
         message.channel.send('is now a very big simp');
     } else if (command == 'sarah'){
