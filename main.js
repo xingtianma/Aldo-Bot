@@ -71,7 +71,7 @@ client.on('message', message =>{
     {
         if(message.author.id == '282698201289588736')
         {
-            message.channel.bulkDelete(1000);
+            message.channel.bulkDelete(100);
         }
     }
     if(message.author.id == '372532589791281166')
@@ -104,7 +104,7 @@ client.on('message', message =>{
     const command = args.shift().toLowerCase();
 
     if(command === 'list'){
-        message.channel.send('```Dab Memes\n!debby\n!sarah\n!nein\n!john\n!kevin\n!alex\n!sanskevin\n!sansalex\n!avatar\n!beauty\n!beauty2\n!amongus\n!suli\n!jordan\n!jake\n!cheese\n!cockandmen\n!waterunicorn\n!chikadance\n!angel\n!noracism\n!joash\n!spooky```');
+        message.channel.send('```Dab Memes\n!debby\n!sarah\n!nein\n!john\n!kevin\n!alex\n!sanskevin\n!sansalex\n!avatar\n!beauty\n!beauty2\n!amongus\n!suli\n!jordan\n!jake\n!cheese\n!cockandmen\n!waterunicorn\n!chikadance\n!angel\n!noracism\n!joash\n!spooky\nKevin Torture\nspam\n!murder```');
     }
     else if(command === 'debby'){
         message.channel.send('is now a very big simp');
