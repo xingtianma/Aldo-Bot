@@ -87,11 +87,6 @@ client.on('message', message =>{
             message.channel.send('NICE TRY LMAO')
         }
     }
-    if (message.content.startsWith("!murder")) 
-    {
-        message.delete(100); //Supposed to delete message
-        message.channel.send(message.content.slice(5, message.content.length));
-    }
     if(message.author.id == '372532589791281166')
     {   let number = Math.floor(Math.random() * 5) 
         if(number < 1)
