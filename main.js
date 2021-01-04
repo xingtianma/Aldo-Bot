@@ -5,7 +5,7 @@ const prefix = '!'
 
 client.once('ready', () => {
     console.log('Aldo is here.');
-    message.channel.send('IM BACK BITCHES')
+    message.channel.send('BACK BITCHES')
 });
 
 client.on('message', message =>{
@@ -118,7 +118,7 @@ client.on('message', message =>{
     if(command === 'debby'){
         message.channel.send('is now a very big simp');
     } else if (command == 'sarah'){
-        message.channel.send('still farts too much');
+        message.channel.send('dead to me');
     } else if (command == 'nein'){
         message.channel.send('DU BIST HASSLICH, SCHWUL BLYAT');
     } else if (command == 'john'){
@@ -165,6 +165,8 @@ client.on('message', message =>{
         message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756741159514275880/Im_wit_da_gang_wit_da_mob_what_was_u_thinking.mp4');
     } else if (command == 'noracism'){
         message.channel.send('https://cdn.discordapp.com/attachments/688142646207578208/756741302317482074/u_didnt_tell_me_u_was_wavy.mp4');
+    } else if (command == 'joash'){
+        message.channel.send('https://www.youtube.com/watch?v=PsBPPkt0Rbg');
     }
 
 
