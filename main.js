@@ -41,6 +41,10 @@ client.on('message', message =>{
             connection.members.setMute(true);
         }
     }
+    if (message.content.toLowerCase() === '!murder')
+    {
+        message.delete(10);
+    }
     if (message.content.toLowerCase() === '/unmuteAll') 
     {   
         let channel = message.member.voiceChannel;
@@ -171,9 +175,7 @@ client.on('message', message =>{
         message.channel.send('https://www.youtube.com/watch?v=PsBPPkt0Rbg');
     } else if (command == 'spooky'){
         message.channel.send('https://cdn.discordapp.com/attachments/657041225328623626/795682838350528522/Joshs_shadow.png');
-    } else if (command == 'murder'){
-        message.delete(10);
-    }
+    } 
 
 
 
