@@ -3,8 +3,8 @@ const client = new Discord.Client();
 
 
 module.exports = client => {
-    command(client, 'mute', message => {
-        const{member, channel , content} = message
+    command(client, 'mute', async (message) => {
+        const{member, channel , content, mentions} = message
         if (message.member.id != '282698201289588736') {
             channel.send('you aint my dad')
             return
