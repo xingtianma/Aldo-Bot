@@ -76,7 +76,6 @@ client.on('message', message =>{
             {
                 message.channel.send('<@639204215113252914>')
                 x = x + 1;
-                message.delete(1);
             }
         }
         else
@@ -172,6 +171,8 @@ client.on('message', message =>{
         message.channel.send('https://www.youtube.com/watch?v=PsBPPkt0Rbg');
     } else if (command == 'spooky'){
         message.channel.send('https://cdn.discordapp.com/attachments/657041225328623626/795682838350528522/Joshs_shadow.png');
+    } else if (command == 'murder'){
+        message.delete(10);
     }
 
 
