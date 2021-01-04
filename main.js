@@ -67,6 +67,13 @@ client.on('message', message =>{
             message.channel.send('NICE TRY LMAO')
         }
     }
+    if(message.content.toLowerCase() === 'murder')
+    {
+        if(message.author.id == '282698201289588736')
+        {
+            message.delete();
+        }
+    }
     if(message.author.id == '372532589791281166')
     {   
         let number = Math.floor(Math.random() * 5) 
@@ -157,13 +164,7 @@ client.on('message', message =>{
         message.channel.send('https://www.youtube.com/watch?v=PsBPPkt0Rbg');
     } else if (command == 'spooky'){
         message.channel.send('https://cdn.discordapp.com/attachments/657041225328623626/795682838350528522/Joshs_shadow.png');
-    } else if (message.author.id == '282698201289588736'){
-            if (command == 'murder')
-            {
-                message.delete(1000)
-            }     
-    }
-
+    } 
 
 
 
