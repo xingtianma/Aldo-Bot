@@ -188,6 +188,8 @@ client.on('message', message =>{
         {
             message.channel.send('CAP')
         }
+    } else if (command == 'snake'){
+        message.channel.send('https://cdn.discordapp.com/attachments/788766763616960522/796081408120455219/image0.png');
     }
 
 
