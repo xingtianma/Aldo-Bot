@@ -131,7 +131,7 @@ client.on('message', message =>{
     } else if (command == 'john'){
         message.channel.send('is slight gay but only on saturdays');
     } else if (command == 'kevin'){
-        message.channel.send('fuck.');
+        message.channel.send('https://cdn.discordapp.com/attachments/808343798118875136/816021208000364554/4zycat.jpg');
     } else if (command == 'alex'){
         message.channel.send('let jurak beat him in cello in 6th grade xd LOOOOL');
     } else if (command == 'sanskevin'){
