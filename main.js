@@ -199,7 +199,8 @@ client.on('message', message =>{
     } else if (command == monkeymonday){
         message.channel.send('https://cdn.discordapp.com/attachments/767916817795514390/816022078628823060/video0.mp4')
     } else if (command == 'L'){
-        message.channel.send('L')
+        message.channel.bulkDelete(1);
+        message.channel.send('L');
     }
 
 
