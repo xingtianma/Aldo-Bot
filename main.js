@@ -97,16 +97,18 @@ client.on('message', message =>{
     {
         message.channel.send('rock paper or scissors bitch')
         userStr = message.content
+        brah = userStr.toLowerCase
+
         let number = Math.floor(Math.random() * 3)
-        if(message.content.toLowerCase === rock)
+        if(brah === rock)
         {
             message.channel.send('i pick paper get fked')
         }
-        if(message.content.toLowerCase === paper)
+        if(brah === paper)
         {
             message.channel.send('i pick scissors get fked')
         }
-        if(message.content.toLowerCase === scissors)
+        if(brah === scissors)
         {
             message.channel.send('i pick rock get fked')
         }
