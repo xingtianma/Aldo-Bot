@@ -93,6 +93,24 @@ client.on('message', message =>{
             message.channel.send('nice try dumbass lmao')
         }
     }
+    if(message.content.toLowerCase() === 'rps')
+    {
+        message.channel.send('rock paper or scissors bitch')
+        userStr = message.content
+        let number = Math.floor(Math.random() * 3)
+        if(message.content.toLowerCase === rock)
+        {
+            message.channel.send('i pick paper get fked')
+        }
+        if(message.content.toLowerCase === paper)
+        {
+            message.channel.send('i pick scissors get fked')
+        }
+        if(message.content.toLowerCase === scissors)
+        {
+            message.channel.send('i pick rock get fked')
+        }
+    }
     if(message.content.toLowerCase() === 'disconnect')
     {
         if(message.author.id === '282698201289588736')
