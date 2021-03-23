@@ -162,8 +162,8 @@ client.on('message', message =>{
         message.channel.send('https://cdn.discordapp.com/attachments/808343798118875136/816021208000364554/4zycat.jpg');
     } else if (command == 'alex'){
         message.channel.send('let jurak beat him in cello in 6th grade xd LOOOOL');
-    } else if (command == 'sanskevin'){
-        message.channel.send('https://cdn.discordapp.com/attachments/356221283983294465/744080638029725747/here_you_go_fuckwad.png');
+    } else if (command == 'test'){
+        message.channel.send('still working');
     } else if (command == 'sansalex'){
         message.channel.send('https://cdn.discordapp.com/attachments/356221283983294465/744080903462060062/alex_sans_but_transparent.png');
     } else if (command == 'avatar'){
