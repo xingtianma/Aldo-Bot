@@ -163,7 +163,7 @@ client.on('message', message =>{
     } else if (command == 'alex'){
         message.channel.send('let jurak beat him in cello in 6th grade xd LOOOOL');
     } else if (command == 'test'){
-        message.channel.send('still working');
+        message.channel.send('L');
     } else if (command == 'sansalex'){
         message.channel.send('https://cdn.discordapp.com/attachments/356221283983294465/744080903462060062/alex_sans_but_transparent.png');
     } else if (command == 'avatar'){
