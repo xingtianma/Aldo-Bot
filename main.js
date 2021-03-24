@@ -145,7 +145,7 @@ client.on('message', message =>{
             message.channel.send('*burps*');
     }
     if(message.author.id == '693656387607068673'){
-        message.channel.delete();
+        message.delete();
     }
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
