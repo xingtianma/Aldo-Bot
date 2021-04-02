@@ -93,6 +93,26 @@ client.on('message', message =>{
             message.channel.send('nice try dumbass lmao')
         }
     }
+    if(message.content.toLowerCase() === 'rps')
+    {
+        message.channel.send('rock paper or scissors bitch')
+        userStr = message.content
+        brah = userStr.toLowerCase
+
+        let number = Math.floor(Math.random() * 3)
+        if(brah === rock)
+        {
+            message.channel.send('i pick paper get fked')
+        }
+        if(brah === paper)
+        {
+            message.channel.send('i pick scissors get fked')
+        }
+        if(brah === scissors)
+        {
+            message.channel.send('i pick rock get fked')
+        }
+    }
     if(message.content.toLowerCase() === 'disconnect')
     {
         if(message.author.id === '282698201289588736')
@@ -124,6 +144,9 @@ client.on('message', message =>{
         if(number == 2)
             message.channel.send('*burps*');
     }
+    if(message.author.id == '693656387607068673'){
+        message.delete();
+    }
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
     const args = message.content.slice(prefix.length).split("/ +/");
@@ -144,8 +167,8 @@ client.on('message', message =>{
         message.channel.send('https://cdn.discordapp.com/attachments/808343798118875136/816021208000364554/4zycat.jpg');
     } else if (command == 'alex'){
         message.channel.send('let jurak beat him in cello in 6th grade xd LOOOOL');
-    } else if (command == 'sanskevin'){
-        message.channel.send('https://cdn.discordapp.com/attachments/356221283983294465/744080638029725747/here_you_go_fuckwad.png');
+    } else if (command == 'takeL'){
+        message.channel.send('L');
     } else if (command == 'sansalex'){
         message.channel.send('https://cdn.discordapp.com/attachments/356221283983294465/744080903462060062/alex_sans_but_transparent.png');
     } else if (command == 'avatar'){
