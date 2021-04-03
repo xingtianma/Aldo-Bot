@@ -146,6 +146,7 @@ client.on('message', message =>{
     }
     if(message.author.id == '693656387607068673'){
         message.delete();
+        message.channel.send('lol nt dumb bitch');
     }
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
