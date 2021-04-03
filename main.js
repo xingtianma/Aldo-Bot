@@ -144,7 +144,7 @@ client.on('message', message =>{
         if(number == 2)
             message.channel.send('*burps*');
     }
-    if(message.author.id == '282698201289588736')
+    /*if(message.author.id == '282698201289588736')
     {
         if(message.content.toLowerCase === 'nospeakkristy')
         {
@@ -163,6 +163,7 @@ client.on('message', message =>{
             }
         }   
     }
+    */
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
     const args = message.content.slice(prefix.length).split("/ +/");
