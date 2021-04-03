@@ -144,9 +144,24 @@ client.on('message', message =>{
         if(number == 2)
             message.channel.send('*burps*');
     }
-    if(message.author.id == '693656387607068673'){
-        message.delete();
-        message.channel.send('lol nt dumb bitch');
+    if(message.author.id == '282698201289588736')
+    {
+        if(message.content.toLowerCase === 'nospeakkristy')
+        {
+            pog = true;
+            while(pog = true)
+            {
+                if(message.author.id == '693656387607068673')
+                {
+                    message.delete();
+                    message.channel.send('lol nt dumb bitch');
+                    if(message.content.toLowerCase === 'speakbitch')
+                    {
+                        pog = false;
+                    }
+                }
+            }
+        }   
     }
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
