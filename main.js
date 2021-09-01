@@ -127,8 +127,8 @@ client.on('message', message =>{
             retardify();
         }
     }
-    if(message.author.id == '384896691196919808')
-        message.channel.send('stfu jeryl')
+    //if(message.author.id == '384896691196919808')
+        //message.channel.send('stfu jeryl')
 
     if(message.author.id == '604010864366059550')
     {
