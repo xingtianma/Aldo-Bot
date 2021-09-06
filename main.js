@@ -11,7 +11,7 @@ client.once('ready', () => {
 });
 
 client.on('message', message =>{
-
+/*
     function retardify()
     {
         str = message.content
@@ -36,7 +36,7 @@ client.on('message', message =>{
         }
         message.channel.send(str)
     }
-
+*/
     if(message.content.toLowerCase() === 'kevin')
         message.channel.send('stop pinging me please thanks <@282698201289588736>')    
     if(message.content.toLowerCase() === 'debby please shut up')
