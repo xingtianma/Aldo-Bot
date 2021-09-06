@@ -119,6 +119,7 @@ client.on('message', message =>{
             member.setVoiceChannel("kevin-doesn't-like-you")
         }
     }
+    /*
     if(message.author.id == '372532589791281166')
     {   
         let number = Math.floor(Math.random() * 5) 
@@ -127,6 +128,7 @@ client.on('message', message =>{
             retardify();
         }
     }
+    */
     //if(message.author.id == '384896691196919808')
         //message.channel.send('stfu jeryl')
 
